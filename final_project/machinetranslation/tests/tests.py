@@ -1,5 +1,7 @@
 import unittest
-
+import sys
+sys.path.append(sys.path[0] + "/..")
+import translator
 from translator import english_to_french, french_to_english
 
 class TestForNull(unittest.TestCase):
